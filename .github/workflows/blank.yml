@@ -36,7 +36,7 @@ jobs:
           pip install playwright
           playwright install chromium
           playwright install-deps
-          xvbf-run Chromium
+          xvfb-run Chromium
           echo Add other actions to build,
           echo test, and deploy your project.
           
