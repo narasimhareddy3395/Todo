@@ -38,7 +38,7 @@ jobs:
           playwright install-deps
           which chromium
           which chromium-browser
-          xvfb-run Chromium
+          xvfb-run chromium-browser
           echo Add other actions to build,
           echo test, and deploy your project.
           
